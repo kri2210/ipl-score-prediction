@@ -75,10 +75,10 @@ This project predicts the **final score of a cricket team during an ongoing IPL 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/kri2210/ipl-score-prediction.git
 
 # Navigate to project folder
-cd your-repo-name
+cd ipl-score-prediction
 
 # Install dependencies
 pip install -r requirements.txt

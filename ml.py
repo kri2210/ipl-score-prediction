@@ -69,11 +69,11 @@ bowling_team = st.selectbox(
 )
 venue = st.selectbox("Venue", venues)
 
-runs = st.number_input("Current Runs", min_value=0, max_value=300, value=50)
-wickets = st.number_input("Wickets Fallen", min_value=0, max_value=10, value=2)
-overs = st.number_input("Overs Completed", min_value=0.0, max_value=19.9, step=0.1, value=10.0)
-runs_last_5 = st.number_input("Runs in Last 5 Overs", min_value=0, max_value=100, value=40)
-wickets_last_5 = st.number_input("Wickets in Last 5 Overs", min_value=0, max_value=10, value=1)
+runs = st.number_input("Current Runs", min_value=0, max_value=300, )
+wickets = st.number_input("Wickets Fallen", min_value=0, max_value=10, )
+overs = st.number_input("Overs Completed", min_value=0.0, max_value=19.9, step=0.1, )
+runs_last_5 = st.number_input("Runs in Last 5 Overs", min_value=0, max_value=100,)
+wickets_last_5 = st.number_input("Wickets in Last 5 Overs", min_value=0, max_value=10,)
 
 # ===================== FEATURE ENGINEERING =====================
 crr = runs / overs if overs > 0 else 0

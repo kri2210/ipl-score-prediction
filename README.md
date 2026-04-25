@@ -65,8 +65,8 @@ This project predicts the **final score of a cricket team during an ongoing IPL 
 
 ## 🔗 Live Demo
 
-**Random Forest Model:**https://ipl-score-prediction-7q2gbsc6gl75s8sjdv6jxp.streamlit.app/
-**Decision Tree Model:**https://appml3.streamlit.app/
+* **Random Forest Model:**https://ipl-score-prediction-7q2gbsc6gl75s8sjdv6jxp.streamlit.app/
+* **Decision Tree Model:**https://appml3.streamlit.app/
 
 *(Replace with your actual deployed Streamlit link)*
 
